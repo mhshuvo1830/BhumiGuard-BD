@@ -78,3 +78,8 @@ tessdata/
 
 *.bak
 *.autosave
+
+# Legacy setup files
+README_STEP1.md
+STEP1_SETUP.bat
+requirements_step1.txt
