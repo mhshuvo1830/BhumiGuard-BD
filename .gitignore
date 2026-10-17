@@ -1,0 +1,80 @@
+﻿# =========================================================
+# BhumiGuard BD - Git Ignore
+# =========================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local caches / logs
+.cache/
+*.log
+*.tmp
+*.temp
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Secrets
+.env
+*.env
+*.key
+*.pem
+
+# ---------------------------------------------------------
+# PRIVATE / RAW RESEARCH DATA
+# ---------------------------------------------------------
+
+data/raw/handwritten_dolil/*
+!data/raw/handwritten_dolil/.gitkeep
+
+data/raw/deed_samples/*
+!data/raw/deed_samples/.gitkeep
+
+data/raw/supporting_forms/*
+!data/raw/supporting_forms/.gitkeep
+
+data/raw/dlrs_forms/*
+!data/raw/dlrs_forms/.gitkeep
+
+# ---------------------------------------------------------
+# GENERATED DATA
+# ---------------------------------------------------------
+
+data/processed/*
+!data/processed/.gitkeep
+
+# ---------------------------------------------------------
+# LOCAL OCR DATA
+# ---------------------------------------------------------
+
+tessdata/
+
+# ---------------------------------------------------------
+# TEMPORARY NOTEBOOK ARTIFACTS
+# ---------------------------------------------------------
+
+*.bak
+*.autosave
